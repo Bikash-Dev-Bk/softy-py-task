@@ -49,8 +49,8 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <a className="btn btn-ghost text-2xl text-white">
-              MEDICAL
+            <a className=" text-2xl text-[#BFD2F8] font-bold cursor-pointer">
+              MEDDICAL
             </a>
           </div>
           <div className="navbar-center hidden lg:flex">
@@ -76,7 +76,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="navbar-end">
-            <a className="font-semibold bg-white text-[#159EEC] text-base px-6 py-2 rounded-full hidden md:block">Appointment</a>
+            <a className="font-semibold bg-white text-[#159EEC] text-base px-6 py-2 rounded-full cursor-pointer hidden md:block">Appointment</a>
           </div>
         </div>
       </div>
