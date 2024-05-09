@@ -3,7 +3,7 @@ import logo1 from "../assets/images/Vector1.png";
 
 const Specialists = () => {
   return (
-    <div className=" py-20">
+    <div className="lg:max-w-[1280px] mx-auto px-3 md:px-5 lg:px-2 py-20">
       <div className="text-center">
         <p className="text-base lg:text-xl uppercase text-[#159EEC] font-bold tracking-[.12em]">
           Always Caring

@@ -13,7 +13,6 @@ const Home = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <div className="lg:max-w-[1280px] mx-auto px-3 md:px-5 lg:px-2">
       <Hero></Hero>
       <Welcome></Welcome>
       <Services></Services>
@@ -22,7 +21,6 @@ const Home = () => {
       <Doctors></Doctors>
       <News></News>
       <Contact></Contact>
-      </div>
       <Footer></Footer>
     </div>
   );

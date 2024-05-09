@@ -43,46 +43,48 @@ const News = () => {
   ];
   return (
     <div className="bg-[#FAFDFE] py-20">
-      <div className="text-center">
-        <p className="text-base lg:text-xl uppercase text-[#159EEC] font-bold tracking-[.12em]">
-          Better information, Better health
-        </p>
-        <h2 className="text-[#1F2B6C] text-2xl md:text-3xl lg:text-4xl font-bold mb-3 mt-1">
-          News
-        </h2>
-      </div>
+      <div className="lg:max-w-[1280px] mx-auto px-3 md:px-5 lg:px-2">
+        <div className="text-center">
+          <p className="text-base lg:text-xl uppercase text-[#159EEC] font-bold tracking-[.12em]">
+            Better information, Better health
+          </p>
+          <h2 className="text-[#1F2B6C] text-2xl md:text-3xl lg:text-4xl font-bold mb-3 mt-1">
+            News
+          </h2>
+        </div>
 
-      <div className="grid gap-6 grid-cols-1 lg:grid-cols-2 mt-24">
-        {news.map((n) => (
-          <div
-            key={n.id}
-            className="flex gap-5 flex-col md:flex-row items-center bg-white rounded-r-lg"
-          >
-            <img src={n.image} alt="" className="w-full md:w-[200px]" />
-            <div>
+        <div className="grid gap-6 grid-cols-1 lg:grid-cols-2 mt-24">
+          {news.map((n) => (
+            <div
+              key={n.id}
+              className="flex gap-5 flex-col md:flex-row items-center bg-white rounded-r-lg"
+            >
+              <img src={n.image} alt="" className="w-full md:w-[200px]" />
               <div>
-                <p className="text-[#159EEC]">
-                  <span>{n.date}</span> | <span>{n.author}</span>
-                </p>
-              </div>
-              <h3 className="text-xl font-semibold">{n.headline}</h3>
-              <div className="flex gap-5 items-center mt-5">
-                <p className="flex gap-1 items-center">
-                  <span>
-                    <MdOutlineRemoveRedEye className="text-blue-400" />
-                  </span>
-                  <span>{n.views}</span>
-                </p>
-                <p className="flex gap-1 items-center">
-                  <span>
-                    <LuHeart className="text-red-500" />
-                  </span>
-                  <span>{n.react}</span>
-                </p>
+                <div>
+                  <p className="text-[#159EEC]">
+                    <span>{n.date}</span> | <span>{n.author}</span>
+                  </p>
+                </div>
+                <h3 className="text-xl font-semibold">{n.headline}</h3>
+                <div className="flex gap-5 items-center mt-5">
+                  <p className="flex gap-1 items-center">
+                    <span>
+                      <MdOutlineRemoveRedEye className="text-blue-400" />
+                    </span>
+                    <span>{n.views}</span>
+                  </p>
+                  <p className="flex gap-1 items-center">
+                    <span>
+                      <LuHeart className="text-red-500" />
+                    </span>
+                    <span>{n.react}</span>
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );
