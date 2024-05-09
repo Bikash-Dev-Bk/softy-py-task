@@ -4,7 +4,6 @@ import Doctors from "./Doctors";
 import Footer from "./Footer";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
-import Navbar2 from "./Navbar2";
 import News from "./News";
 import Services from "./Services";
 import Specialists from "./Specialists";
@@ -13,9 +12,8 @@ import Welcome from "./Welcome";
 const Home = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <Navbar2></Navbar2>
       <Navbar></Navbar>
+      <div className="lg:max-w-[1280px] mx-auto px-3 md:px-5 lg:px-2">
       <Hero></Hero>
       <Welcome></Welcome>
       <Services></Services>
@@ -24,6 +22,7 @@ const Home = () => {
       <Doctors></Doctors>
       <News></News>
       <Contact></Contact>
+      </div>
       <Footer></Footer>
     </div>
   );
