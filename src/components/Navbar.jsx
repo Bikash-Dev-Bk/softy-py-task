@@ -76,7 +76,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="navbar-end">
-            <a className="font-semibold bg-white text-[#159EEC] text-base px-6 py-2 rounded-full">Appointment</a>
+            <a className="font-semibold bg-white text-[#159EEC] text-base px-6 py-2 rounded-full hidden md:block">Appointment</a>
           </div>
         </div>
       </div>
