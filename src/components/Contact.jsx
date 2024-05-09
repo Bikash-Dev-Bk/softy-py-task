@@ -7,10 +7,10 @@ const Contact = () => {
   return (
     <div className=" py-20">
       <div className="text-center">
-        <p className="uppercase text-[#159EEC] font-bold tracking-[.12em]">
+        <p className="text-base md:text-xl uppercase text-[#159EEC] font-bold tracking-[.12em]">
           Get in touch
         </p>
-        <h2 className="text-[#1F2B6C] text-2xl lg:text-3xl font-bold mb-3 mt-1">
+        <h2 className="text-[#1F2B6C] text-2xl md:text-3xl lg:text-4xl font-bold mb-3 mt-1">
           Contact
         </h2>
       </div>

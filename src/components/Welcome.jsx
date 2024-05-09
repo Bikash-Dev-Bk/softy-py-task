@@ -4,8 +4,8 @@ import doctors from '../assets/images/Blackdoctors.png'
 const Welcome = () => {
   return (
     <div className="text-center">
-      <p className="uppercase text-[#159EEC] font-bold tracking-[.12em]">Welcome to Meddical</p>
-      <h2 className="text-[#1F2B6C] text-2xl lg:text-3xl font-bold mb-3 mt-1">
+      <p className="text-base lg:text-xl uppercase text-[#159EEC] font-bold tracking-[.12em]">Welcome to Meddical</p>
+      <h2 className="text-[#1F2B6C] text-2xl md:text-3xl lg:text-4xl font-bold mb-3 mt-1">
         A Great Place to Receive Care
       </h2>
       <p className="lg:max-w-[650px] mx-auto">
