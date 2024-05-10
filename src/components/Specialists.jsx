@@ -12,7 +12,7 @@ const Specialists = () => {
           Our Specialties
         </h2>
       </div>
-      <div className="grid gap-2 md:gap-0 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-24">
+      <div className="grid gap-2 md:gap-0 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-10 md:mt-24">
         <div className="border-1 border flex flex-col justify-center items-center py-20">
           <img src={logo} alt="" />
           <p className="font-semibold mt-2">Neurology</p>

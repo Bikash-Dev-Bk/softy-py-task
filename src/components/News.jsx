@@ -53,7 +53,7 @@ const News = () => {
           </h2>
         </div>
 
-        <div className="grid gap-6 grid-cols-1 lg:grid-cols-2 mt-24">
+        <div className="grid gap-6 grid-cols-1 lg:grid-cols-2 mt-10 md:mt-24">
           {news.map((n) => (
             <div
               key={n.id}

@@ -19,7 +19,7 @@ const Services = () => {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-6 gap-7 mt-24">
+        <div className="grid grid-cols-1 lg:grid-cols-6 gap-7 mt-10 md:mt-24">
           <div className="col-span-1 grid grid-cols-2 lg:grid-cols-1 border-1 border">
             <div className="flex flex-col items-center justify-center font-semibold p-8 md:p-12 lg:p-1">
               <img src={service1} alt="" />

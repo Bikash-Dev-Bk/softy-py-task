@@ -15,7 +15,7 @@ const Contact = () => {
             Contact
           </h2>
         </div>
-        <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-16">
+        <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-10 md:mt-16">
           <div className="bg-[#BFD2F8] text-[#1F2B6C] px-8 py-16 rounded-md">
             <p className="text-4xl">
               <LuPhoneCall />

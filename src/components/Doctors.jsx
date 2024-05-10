@@ -40,7 +40,7 @@ const Doctors = () => {
             Our Doctors
           </h2>
         </div>
-        <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-24">
+        <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10 md:mt-24">
           {doctors.map((doctor) => (
             <div key={doctor.id}>
               <img src={doctor.image} alt="" />
