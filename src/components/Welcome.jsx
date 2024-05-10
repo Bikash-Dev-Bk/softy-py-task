@@ -3,7 +3,7 @@ import doctors from "../assets/images/Blackdoctors.png";
 
 const Welcome = () => {
   return (
-    <div className="lg:max-w-[1280px] mx-auto px-3 md:px-5 lg:px-2">
+    <div className="lg:max-w-[1280px] mx-auto px-3 md:px-5 lg:px-2 py-20">
       <div className="text-center">
         <p className="text-base lg:text-xl uppercase text-[#159EEC] font-bold tracking-[.12em]">
           Welcome to Meddical
