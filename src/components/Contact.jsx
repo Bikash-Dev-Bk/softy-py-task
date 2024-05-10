@@ -6,7 +6,7 @@ import { SlLocationPin } from "react-icons/sl";
 const Contact = () => {
   return (
     <div className="lg:max-w-[1280px] mx-auto px-3 md:px-5 lg:px-2">
-      <div className=" py-20">
+      <div className=" py-12 lg:py-20">
         <div className="text-center">
           <p className="text-base md:text-xl uppercase text-[#159EEC] font-bold tracking-[.12em]">
             Get in touch
