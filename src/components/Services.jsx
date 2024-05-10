@@ -37,10 +37,12 @@ const Services = () => {
               <img src={service4} alt="" />
               <p className="mt-2">Blood Bank</p>
             </div>
-            <button className="bg-[#1F2B6C] text-[#BFD2F8] font-semibold -py-4 hidden lg:block">View All</button>
+            <button className="bg-[#1F2B6C] text-[#BFD2F8] font-semibold -py-4 hidden lg:block">
+              View All
+            </button>
           </div>
 
-          <div className="col-span-1 lg:col-span-3 lg:mt-10">
+          <div className="col-span-1 lg:col-span-3 lg:mt-3">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold">
               A passion for putting patients first.
             </h2>
@@ -74,19 +76,24 @@ const Services = () => {
                 <span className="text-lg font-semibold">Always Caring</span>
               </p>
             </div>
-            <p className="text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              placerat scelerisque tortor ornare ornare. Quisque placerat
-              scelerisque tortor ornare ornare Convallis felis vitae tortor
-              augue. Velit nascetur proin massa in. Consequat faucibus porttitor
-              enim et.
+            <p className="text-lg text-justify lg:text-left">
+              We uphold a steadfast commitment to comprehensive healthcare,
+              driven by a profound Passion for Healing. With meticulous
+              attention to detail and a focus on patient-centered care, we
+              provide an unparalleled experience of 5-Star Care. Every
+              individual who walks through our doors receives our unwavering
+              dedication and expertise, ensuring their journey to wellness is
+              met with the highest standards of excellence.
               <br />
               <br />
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              placerat scelerisque tortor ornare ornare. Quisque placerat
-              scelerisque tortor ornare ornare Convallis felis vitae tortor
-              augue. Velit nascetur proin massa in. Consequat faucibus porttitor
-              enim et.
+              At the heart of our philosophy lies the belief that together, we
+              can achieve remarkable outcomes. We invite you to place your trust
+              in us as we draw upon our Legacy of Excellence. With a history
+              rich in innovation and a tradition of compassionate service, we
+              stand as a beacon of hope and healing in our community. Always
+              Caring, we are committed to guiding you towards optimal health and
+              well-being, empowering you to lead a life of vitality and
+              fulfillment.
             </p>
           </div>
 

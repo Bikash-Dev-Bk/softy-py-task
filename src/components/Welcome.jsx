@@ -12,10 +12,10 @@ const Welcome = () => {
           A Great Place to Receive Care
         </h2>
         <p className="lg:max-w-[650px] mx-auto">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-          placerat scelerisque tortor ornare ornare. Convallis felis vitae
-          tortor augue. Velit nascetur proin massa in. Consequat faucibus
-          porttitor enim et.
+          Welcome to our hospital portfolio! Explore our range of compassionate
+          care and advanced services, designed to meet your unique needs. Trust
+          us to guide you through your health journey with expertise and
+          empathy.
         </p>
 
         <p className="flex gap-2 justify-center items-center font-semibold mt-5">
